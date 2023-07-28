@@ -4,6 +4,8 @@ import { Timer1 } from "./Components/Timer1";
 import { Counter } from "./Components/Counter";
 import { Counter2 } from "./Components/Counter2";
 import { Form } from "./Components/Form";
+import { ClickonMe } from "./Components/ClickonMe";
+// import { ClickMe } from "./Components/ClickMe";
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       <Counter />
       <Counter2 />
       <Form />
+      <ClickonMe />
     </div>
   );
 }
